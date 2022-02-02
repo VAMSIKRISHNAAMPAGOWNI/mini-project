@@ -36,19 +36,6 @@
 **TBD**
 
 # Detail requirements
-## High Level Requirements:
---- TBD in Tabular Format 
---- ID | Zombie processes usually occur for child processes, as the parent process still needs to read its child’s exit status | Implemented|
---- ID | A child process always first becomes a zombie before being removed from the process table | Implemented |
---- ID  | the orphan process is soon adopted by init process, once its parent process dies |implemented |
-
-
-
-##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | either finished or terminated without waiting for its child process to terminate is called an orphan process |Implemented
--- ID  |The parent process reads the exit status of the child process which reaps off the child process entry from the process table|Implemented
-
 ## HIGH LEVEL REQUIREMENTS
 
 |ID   |        DESCRIPTION    |       STATUS|

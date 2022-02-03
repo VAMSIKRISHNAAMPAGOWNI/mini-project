@@ -3,6 +3,7 @@
  Fork system call is used for creating a new process, which is called child process, which runs concurrently with the process that makes the fork call parent process. After a new child process is created, both processes will execute the next instruction following the fork system call. A zombie process is a process whose execution is completed but it still has an entry in the process table. Zombie processes usually occur for child processes, as the parent process still needs to read its child’s exit status. Orphan processes are those processes that are still running even though their parent process has terminated or finished. A process can be orphaned intentionally or unintentionally.
 
 ## SWOT ANALYSIS
+![SWOT-Analysis](https://user-images.githubusercontent.com/94233420/152287322-2c01d17b-62f4-42d7-8dd9-3599356a15f5.jpg)
 
 Strength:
 

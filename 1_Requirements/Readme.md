@@ -25,11 +25,11 @@
 
 Strength:
 
-    Created when a child process is running and the parent process is killed. 
+    The system recognises the orphaned child process.
 
 Weakness:
 
-    The system recognises the orphaned child process.
+     Created when a child process is running and the parent process is killed.
 
 Opportunities:
 

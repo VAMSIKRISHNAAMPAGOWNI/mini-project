@@ -7,7 +7,7 @@
 
 | Folder              | Description                                   |
 | :------------------ | :-------------------------------------------- |
-| 1_Requirements      | Documents detailing requirements and research |
+| 1_Requirements      | Documents detailing requirements              |
 | 2_Architecture      | Folders regarding design details              |
 | 3_Implementation    | Complete code and documentation               |
 | 4_TestPlanAndOutput | Documents with test plan and procedure        |

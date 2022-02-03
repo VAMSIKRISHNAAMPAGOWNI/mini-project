@@ -22,26 +22,21 @@ Threads:
     
 
 # 4W&#39;s and 1&#39;H
+Who:
 
-## Who:
+    It keeps running but becomes "lost" in the system And so cannot be terminated by it's parent process.
 
-**TBD**
+What:
 
-## What:
+    It just keeps running forever.
 
-**TBD**
+What:
 
-## When:
+    Keeps using system resource by using a slot in the process table
 
-**TBD**
+Where:
 
-## Where:
-
-**TBD**
-
-## How:
-
-**TBD**
+     It cannot be stopped in a conventional manner The only way to kill a zombie is to reboot the system
 
 # Detail requirements
 ## HIGH LEVEL REQUIREMENTS

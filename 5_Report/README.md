@@ -22,7 +22,9 @@
 | 40020845            | AMPAGOWNI VAMSI KRISHNA |
 
 ## SWOT ANALYSIS
-![SWOT-Analysis](https://user-images.githubusercontent.com/94233420/152287322-2c01d17b-62f4-42d7-8dd9-3599356a15f5.jpg)
+
+
+![swotm1](https://user-images.githubusercontent.com/94233420/152777893-a7d2b282-15cb-43f5-a98c-1df283d6ea56.png)
 
 Strength:
 
@@ -41,6 +43,10 @@ Threads:
     
 
 # 4W&#39;s and 1&#39;H
+
+![istockphoto-1338212241-170667a](https://user-images.githubusercontent.com/94233420/152777335-657e1433-806d-404d-8301-b1408d07061a.jpg)
+
+
 Who:
 
     It keeps running but becomes "lost" in the system And so cannot be terminated by it's parent process.

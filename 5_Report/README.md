@@ -91,60 +91,25 @@ Where:
 ## orphan 
 ![Screenshot 2022-02-03 011736od](https://user-images.githubusercontent.com/94233420/152226142-18fe8216-96f3-493c-9e66-422e46c09e3e.png)
 
-## code
-              #include<stdio.h>
-              #include<string.h>
-              #include<stdlib.h>
-              #include<unistd.h>
-              #include<sys/types.h>
+# Test Plan:
 
-              int main()
-              {
-              int p;
-              char choice;
+## High Level Test Plan:
 
-              printf("Enter Choice (1/2): ");
-              scanf("%c", &choice);
+|Test ID|                            Description                           |  Exp I/P   |  Exp O/P  |  Actual Output |  Type Of Test   |
+|:-----:|:----------------------------------------------------------------:|:----------:|:---------:|:--------------:|:---------------:|
+| H_01  | if pid>0 then it goes to wait state                 |       2    | child process with id 758 parent process 754      |child process with id 758 parent process 754              |Requirement based|
+| H_02  | if pid =0 then it goes to termination state              |   1  | parent process id 810parent process is going to be terminated|parent process id 810parent process is going to be terminated|Requirement based|
 
-              switch(choice)
-                  {
-              case '1':
-              p=fork();
+        
 
-              if(p==0)
-              {
-              printf("child process%d\n parent id %d\n",getpid(),getppid());
-              sleep(5);
-              printf("child executing");
-              }
-              else
-              {
-              printf("parent process id %d",getppid());
-              printf("parent process is going to be terminated\n");
-              }
-              break;
 
-              case '2':
-              p=fork();
-              if(p==0)
-              {
-              printf("child process with id %d\n parewnt process %d\n",getpid(),getppid());
-              }
-              else
-              {
-              printf("\nparent proces with id %d",getppid());
-              sleep(5);
-              printf("\nchild process id %d\n",getpid());
-              }            
-              break;
+## Low level test plan:
 
-              // For invalid input  //
-                      default:
-                          printf("Error! Wrong Input");
-                  }
+|Test ID|                            Description                           |  Exp I/P   |  Exp O/P  |  Actual Output |  Type Of Test   |
+|:-----:|:----------------------------------------------------------------:|:----------:|:---------:|:--------------:|:---------------:|
+| L_01  |if pid>0 then it goes to wait state, if pid=0 then it goes to termination state | 2|parent proces with id 753 child process id 754 |parent proces with id 753 child process id 754|Requirement based|
+| L_02  |Created when a child process is running and the parent process is killed. The system recognises the orphaned child process. |1 |child process815 parent id 811 |child process815  parent id 811 |Requirement based  |
 
-                  return 0;
-              }
 
 
 ## Output

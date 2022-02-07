@@ -1,3 +1,7 @@
+[Uploading mini1.drawio…]()
+![m1](https://user-images.githubusercontent.com/94233420/152769693-0bb7af87-d808-4dbd-8203-9c10d5659b5e.png)
+
+
 ## FORK
 ![fork](https://user-images.githubusercontent.com/94233420/152290985-54ddb61b-ddab-4aa7-a7db-8fb86305dd6c.png)
 

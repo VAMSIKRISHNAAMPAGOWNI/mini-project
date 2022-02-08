@@ -92,6 +92,13 @@ Where:
 
 
 
+##                     orphan process in linux
+
+
+
+![Screenshot 2022-02-03 011736od](https://user-images.githubusercontent.com/94233420/152910090-46c360a2-3996-428e-a112-c2f3f4d7a406.png)
+
+
 # Test Plan:
 
 ## High Level Test Plan:
